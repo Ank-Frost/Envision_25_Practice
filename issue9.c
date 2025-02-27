@@ -1,8 +1,8 @@
-// print correct factorial of the variable "num"
+// printed correct factorial of the variable "num"
 
 #include<stdio.h>
 int factorial(int n){
-    if(n == 2)
+    if(n == 1)
         return 1;
     else
         return n*factorial(n-1);
